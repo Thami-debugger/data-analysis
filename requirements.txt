@@ -7,3 +7,5 @@ matplotlib
 seaborn
 pillow
 openpyxl
+numpy
+plotly
