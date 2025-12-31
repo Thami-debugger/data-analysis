@@ -1,0 +1,6 @@
+Project Name: VT Data Analysis Agent
+What it does: A Streamlit app that lets you upload CSV/Excel files, clean them in one click, explore with guided visualizations, and get AI-assisted narrative insights locally (with optional Ollama)
+Tech Stack: Python, Streamlit, Pandas, Plotly, Ollama (local Llama)
+Biggest Challenge: Balancing fast, on-device AI storytelling with robust data cleaning and visualization for varied, messy datasets
+Link: https://vt-data-analysis-agent.onrender.com
+Tone: Excited
