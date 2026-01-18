@@ -1,0 +1,13 @@
+.venv
+__pycache__/
+*.pyc
+.DS_Store
+pandasai.log
+.ruff_cache/
+.git/
+.github/
+cache/
+exports/
+.gitignore
+render.yaml
+test_utils.py

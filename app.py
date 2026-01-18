@@ -423,6 +423,12 @@ st.set_page_config(
 
 st.title("📊 Enhanced AI Data Analysis Agent")
 
+# Google site verification for search console
+st.markdown(
+    '<meta name="google-site-verification" content="lpgOqVca5sBG-p8FFpw3YaXktCgH-q9zUnu0KrsIxto" />',
+    unsafe_allow_html=True
+)
+
 # Add warning about Ollama on Render
 st.warning("""
 ⚠️ **Note**: Ollama integration requires local installation and won't work on Render's cloud environment. 
