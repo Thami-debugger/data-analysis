@@ -429,6 +429,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Meta description for SEO
+st.markdown(
+    '<meta name="description" content="AI Data Analysis Agent: Instantly analyze, visualize, and clean your CSV or Excel data using natural language. Powered by Streamlit, Pandas, and OpenAI for smart, interactive data insights.">',
+    unsafe_allow_html=True
+)
+
+# Clear introduction for users and search engines
+st.markdown("""
+**Welcome to the AI Data Analysis Agent!**
+
+Upload your CSV or Excel files and ask questions in plain English. Instantly get data summaries, visualizations, and cleaning suggestions powered by AI (OpenAI, PandasAI, and Streamlit). Perfect for quick, smart data exploration and reporting.
+""")
+
 # Add warning about Ollama on Render
 st.warning("""
 ⚠️ **Note**: Ollama integration requires local installation and won't work on Render's cloud environment. 
