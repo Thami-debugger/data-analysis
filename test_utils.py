@@ -3,6 +3,7 @@ import pandas as pd
 from utils import load_data
 import io
 
+
 class TestUtils(unittest.TestCase):
     def test_load_data_csv(self):
         # Create a dummy CSV file

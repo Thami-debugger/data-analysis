@@ -2,7 +2,6 @@ import pandas as pd
 from datetime import datetime
 import streamlit as st
 
-
 def load_data(uploaded_file):
     """Loads data from a CSV or Excel file and applies necessary fixes."""
     if uploaded_file.name.endswith(".csv"):
